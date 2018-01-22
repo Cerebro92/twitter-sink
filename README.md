@@ -1,0 +1,10 @@
+- user/screen name
+- retweet count
+- favourite count
+- date Range
+- tweet text
+- geo location
+- language
+- user follower counts
+- user mentions
+- URLs
