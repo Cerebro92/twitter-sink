@@ -28,6 +28,8 @@ class TwitterStatus():
                         filter_value = {'$' + operator: parse(filter_value)}
 
                 if filter_name in USER_PARAMS:
+                    if not query.get('user'):
+                        query['user'] = {}
                     query['user'][filter_name] = filter_value
                 else:
                     query[filter_name] = filter_value
