@@ -31,10 +31,9 @@ python sink_to_mongo.py "keyword"
 
 ### Searching
 
-URL - /status
 
 ```
-/status?screen_name=JohnMiller
+GET /status?screen_name=JohnMiller
 ```
 
 params
@@ -51,7 +50,7 @@ params - created_at, retweet_count and favorite_count support range query
 To use range query feature, append [_gt or _lt] to query_params
 
 ```
-/status?screen_name=JohnMiller&retweet_count_gt=5
+GET /status?screen_name=JohnMiller&retweet_count_gt=5
 ```
 
 ## TODO
