@@ -17,6 +17,9 @@ class MyStreamListener(tweepy.StreamListener):
 
 class TwitterStream(object):
 
+    # The Singleon 
+    # inspired from
+    # http://python-3-patterns-idioms-test.readthedocs.io/en/latest/Singleton.html
     __instance = None
     def __new__(cls, filters=[]):
         if not TwitterStream.__instance:
