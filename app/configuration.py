@@ -20,10 +20,10 @@ class ProductionConfig(Config):
 
 class DevelopmentConfig(Config):
     DEBUG = True
-    TWITTER_CONSUMER_KEY = 'nLN1HuGpCog4n2y1eCy0y1o4e'
-    TWITTER_CONSUMER_SECRET = 'g4WuYpr1bk5odUFt2dVh4Uroec8TKNNZjAam5KBkj7QPPbHDxM'
-    TWITTER_ACCESS_TOKEN_KEY = '955356200975065088-RoB1VqwVFIpr8fvC417ySwD9HekkWRm'
-    TWITTER_ACCESS_TOKEN_SECRET = 'ayBVJRmxbj0Cx3AUqE7ZmpqWTf2JDfINOCiuRop5UF6Bn'
+    TWITTER_CONSUMER_KEY = ''
+    TWITTER_CONSUMER_SECRET = ''
+    TWITTER_ACCESS_TOKEN_KEY = ''
+    TWITTER_ACCESS_TOKEN_SECRET = ''
 
     # mongo details
     MONGO_DBNAME = 'twitter_sink'
